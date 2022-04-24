@@ -3,6 +3,6 @@ package healthcheck
 type Service struct {
 }
 
-func (s *Service) Health() string {
+func (s *Service) Execute() string {
 	return "ok"
 }
